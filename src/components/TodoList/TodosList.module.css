@@ -1,0 +1,8 @@
+.cards {
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    padding: 40px 20px;
+    color: #000;
+    width: 100%;
+}

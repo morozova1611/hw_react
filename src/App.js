@@ -1,15 +1,11 @@
 import './App.css';
-import FirstComponent from './components/FirstComponent/FirstComponent';
-import Counter from './components/Counter/Counter';
-
+// import UsersList from './components/UsersList/UsersList';
+import TodosList from './components/TodoList/TodosList'
 function App() {
   return (
     <div className="App">
-      <Counter />
-      <h1>
-        hello
-      </h1>
-      <FirstComponent userName={'Eva'} />
+      {/* <UsersList /> */}
+      <TodosList />
     </div>
   );
 }
